@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D0A4AF71-2EF3-4A74-9987-B41D4E1DDA4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sino.LogisticsWorkOrderManage.Core", "src\Sino.LogisticsWorkOrderManage.Core\Sino.LogisticsWorkOrderManage.Core.csproj", "{5356720A-550C-47EC-9DFB-24425873790C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sino.LogisticsWorkOrderManage.Repositories", "src\Sino.LogisticsWorkOrderManage.Repositories\Sino.LogisticsWorkOrderManage.Repositories.csproj", "{60E3545D-8F94-4DB3-B9CA-2FE9E48587A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sino.LogisticsWorkOrderManage.Application", "src\Sino.LogisticsWorkOrderManage.Application\Sino.LogisticsWorkOrderManage.Application.csproj", "{E73848E5-A989-4C3A-9C43-C9860E1736B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sino.LogisticsWorkOrderManage.Web", "src\Sino.LogisticsWorkOrderManage.Web\Sino.LogisticsWorkOrderManage.Web.csproj", "{139C858E-D523-4912-B7FC-216FFDD3F053}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5356720A-550C-47EC-9DFB-24425873790C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5356720A-550C-47EC-9DFB-24425873790C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5356720A-550C-47EC-9DFB-24425873790C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5356720A-550C-47EC-9DFB-24425873790C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60E3545D-8F94-4DB3-B9CA-2FE9E48587A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60E3545D-8F94-4DB3-B9CA-2FE9E48587A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60E3545D-8F94-4DB3-B9CA-2FE9E48587A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60E3545D-8F94-4DB3-B9CA-2FE9E48587A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E73848E5-A989-4C3A-9C43-C9860E1736B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E73848E5-A989-4C3A-9C43-C9860E1736B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E73848E5-A989-4C3A-9C43-C9860E1736B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E73848E5-A989-4C3A-9C43-C9860E1736B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{139C858E-D523-4912-B7FC-216FFDD3F053}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{139C858E-D523-4912-B7FC-216FFDD3F053}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{139C858E-D523-4912-B7FC-216FFDD3F053}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{139C858E-D523-4912-B7FC-216FFDD3F053}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5356720A-550C-47EC-9DFB-24425873790C} = {D0A4AF71-2EF3-4A74-9987-B41D4E1DDA4E}
+		{60E3545D-8F94-4DB3-B9CA-2FE9E48587A5} = {D0A4AF71-2EF3-4A74-9987-B41D4E1DDA4E}
+		{E73848E5-A989-4C3A-9C43-C9860E1736B6} = {D0A4AF71-2EF3-4A74-9987-B41D4E1DDA4E}
+		{139C858E-D523-4912-B7FC-216FFDD3F053} = {D0A4AF71-2EF3-4A74-9987-B41D4E1DDA4E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {07AD14FA-B6A5-4A8D-8A51-A31F90FF4BAE}
+	EndGlobalSection
+EndGlobal

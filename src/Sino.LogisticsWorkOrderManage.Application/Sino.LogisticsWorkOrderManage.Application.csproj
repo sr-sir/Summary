@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="7.0.1" />
+    <PackageReference Include="Sino.CommonService.HttpClientLibrary" Version="2.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Sino.LogisticsWorkOrderManage.Core\Sino.LogisticsWorkOrderManage.Core.csproj" />
+    <ProjectReference Include="..\Sino.LogisticsWorkOrderManage.Repositories\Sino.LogisticsWorkOrderManage.Repositories.csproj" />
+  </ItemGroup>
+
+</Project>
